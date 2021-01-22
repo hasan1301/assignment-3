@@ -1,19 +1,21 @@
+// https://github.com/hasan1301/assignment-3
+
 kilometerToMeter
-
 bugetCalculator
-
 hotelCost
+megaFriend
 
-// megaFriend
+
+// kilometerToMeter
 
 function kilometerToMeter(kilometer) {
     var meter = kilometer / 1000;
     return meter;
 }
 var meter = kilometerToMeter(10);
-console.log(meter)
+// console.log(meter)
 
-
+// bugetCalculator
 
 var bugetCalculator = 9;
 var item = 0;
@@ -32,7 +34,9 @@ else {
     var thirdItem = remaining * 500;
     item = firstItem + secondItem + thirdItem;
 }
-console.log(item)
+// console.log(item)
+
+// hotelCost
 
 var hotelCost = 21;
 var rent = 0;
@@ -51,10 +55,11 @@ else {
     var thirdRent = remaining * 50;
     rent = firstRent + secondRent + thirdRent;
 }
-console.log(rent)
+// console.log(rent)
 
+// megaFriend
 
-var word = ["koli", "kakoli", "moli"];
+var word = ["koli", "kakoli", "solu"];
 var max = word[0];
 for (var i = 0; i < word.length; i++) {
     var element = word[i];
@@ -62,4 +67,4 @@ for (var i = 0; i < word.length; i++) {
         max = element;
     }
 }
-console.log(max);
+// console.log(max);
