@@ -4,6 +4,8 @@ bugetCalculator
 
 hotelCost
 
+// megaFriend
+
 function kilometerToMeter(kilometer) {
     var meter = kilometer / 1000;
     return meter;
@@ -50,3 +52,14 @@ else {
     rent = firstRent + secondRent + thirdRent;
 }
 console.log(rent)
+
+
+var word = ["koli", "kakoli", "moli"];
+var max = word[0];
+for (var i = 0; i < word.length; i++) {
+    var element = word[i];
+    if (element.length > max.length) {
+        max = element;
+    }
+}
+console.log(max);
